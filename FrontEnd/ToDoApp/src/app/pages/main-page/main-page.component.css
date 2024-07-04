@@ -1,0 +1,18 @@
+.card-container {
+    margin:auto;
+    margin-top: 100px;
+    width: 70%;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bottom-right-button{
+    position: absolute;
+    
+}

@@ -1,0 +1,20 @@
+<div class="card-container">
+    <mat-card>
+         <mat-card-header>
+              <mat-card-title>Task</mat-card-title>
+         </mat-card-header>
+         <mat-card-content>
+              <form class="form-custom" [formGroup]="formTask">
+                   <mat-form-field class="input-custom">
+                        <mat-label>Title</mat-label>
+                        <input matInput formControlName="title">
+
+                   </mat-form-field>
+                   <div class="flex">
+                        <button mat-flat-button color="primary" (click)="edit()">Create</button>
+                        <button mat-flat-button color="warn" (click)="cancel()" style="margin-left:8px">Cancel</button>
+                   </div>
+              </form>
+         </mat-card-content>
+    </mat-card>
+</div>
